@@ -1,2 +1,2 @@
 # Web-Scraper
-Web scraper for discourse-based (https://www.discourse.org/) web forums. Coded in Python using Beautiful Soup and JSON serialization. 
+Web scraper for discourse-based (https://www.discourse.org/) web forums to collect post title, initiating post content, post replies and relevant post metadata (URL, username, timestamp, category and subcategory names). Coded in Python using Beautiful Soup and JSON serialization. Handled the page loading bottleneck caused by the website's infinite scrolling feature using the JSON encoded pages.
